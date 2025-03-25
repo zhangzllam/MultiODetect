@@ -1,10 +1,13 @@
 # MultiODetect
 Single-Image-Based Detection of Rotating Multi-Opening Objects
 Download the GitHub repository and its dependencies:
+
+Installation:
+
 WORK_DIR=/path/to/work/directory/
 cd $WORK_DIR
 git clone <your-github-repo-url>.git
-PROJECT_DIR=$WORK_DIR/<your-project-name>
+PROJECT_DIR=$WORK_DIR/MultiODetect
 
 cd $PROJECT_DIR
 
