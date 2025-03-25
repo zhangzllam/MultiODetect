@@ -1,8 +1,8 @@
 import torch
 from torch.utils.data import DataLoader, Subset
 import pandas as pd
-from CoreNetwork import HWD_LSKNetv1, HWD_LSKNetv2
-from module_def import PolyLoss, HuberLoss
+from model.CoreNetwork import HWD_LSKNetv1, HWD_LSKNetv2
+from model.module_def import PolyLoss, HuberLoss
 from argumentation import argumentation
 import torch.optim as optim
 import numpy as np
