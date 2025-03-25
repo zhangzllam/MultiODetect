@@ -1,6 +1,6 @@
 import argparse
-from Regression_ker import trainer
-#from Speed_est import predicter
+from scripts.Regression_ker import trainer 
+#from scripts.Speed_est import predicter
 import os
 
 
@@ -8,7 +8,7 @@ def create_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_name', default=r'v1', type=str)
     parser.add_argument('--num_classes', default=10, type=int)
-    parser.add_argument('--res_dir', default=r'.\Regression_Result\tmp1', type=str)
+    parser.add_argument('--res_dir', default=r'.\Result\tmp1', type=str)
     parser.add_argument('--param_dir', default=r'.\param_tmp', type=str)
     parser.add_argument('--pretrain', default=False)
     parser.add_argument('--model_dir', default=r'.\model_param', type=str)
