@@ -1,8 +1,10 @@
 # MultiODetect
 Single-Image-Based Detection of Rotating Multi-Opening Objects
-Download the GitHub repository and its dependencies:
+
 
 ## Installation:
+
+Download the GitHub repository and its dependencies:
 
 ```bash
 
