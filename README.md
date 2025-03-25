@@ -2,15 +2,21 @@
 Single-Image-Based Detection of Rotating Multi-Opening Objects
 Download the GitHub repository and its dependencies:
 
-Installation:
+## Installation:
+
+```bash
 
 WORK_DIR=/path/to/work/directory/
 cd $WORK_DIR
-git clone <your-github-repo-url>.git
+git clone git@github.com:zhangzllam/MultiODetect.git
 PROJECT_DIR=$WORK_DIR/MultiODetect
 
 cd $PROJECT_DIR
 
-conda create -y -n <your-env-name> python=3.8
-conda activate <your-env-name>
-conda install -y setuptools==69.5.1 mkl=2024.0 pytorch=1.11.0 torchvision=0.12.0 torchaudio=0.11.0 cudatoolkit=11.3 -c pytorch
+conda create -y -n MultiODetect python=3.7
+conda activate MultiODetect
+conda install -y pytorch=1.13.1 torchvision=0.14.1 torchaudio=0.13.1 cudatoolkit=11.6 -c pytorch
+
+```
+
+
