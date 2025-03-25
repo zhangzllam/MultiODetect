@@ -4,8 +4,8 @@ import pandas as pd
 from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
-from CoreNetwork import amount_net
-from module_def import PolyLoss, HuberLoss
+from model.CoreNetwork import HWD_LSKNetv1, HWD_LSKNetv2
+from model.module_def import PolyLoss, HuberLoss
 from argumentation import argumentation
 import torch.optim as optim
 import numpy as np
