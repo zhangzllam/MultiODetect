@@ -18,7 +18,7 @@ cd $PROJECT_DIR
 conda create -y -n MultiODetect python=3.7
 conda activate MultiODetect
 conda install -y pytorch=1.13.1 torchvision=0.14.1 torchaudio=0.13.1 cudatoolkit=11.6 -c pytorch
-
 ```
-
+install pytorch_wavelets 
+`git clone https://github.com/fbcotter/pytorch_wavelets cd pytorch_wavelets pip install .`
 
