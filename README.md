@@ -23,7 +23,8 @@ install pytorch_wavelets
 `git clone https://github.com/fbcotter/pytorch_wavelets cd pytorch_wavelets pip install .`
 
 ## Run Example
-
+ After installing, you can download a dataset: https://doi.org/10.5281/zenodo.15080626
+ 
  Once you downloaded data fragment, you can test the code.
  Run the following command:
  ```
