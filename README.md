@@ -23,10 +23,7 @@ install pytorch_wavelets
 `git clone https://github.com/fbcotter/pytorch_wavelets cd pytorch_wavelets pip install .`
 
 ## Run Example
- After installing, you can download a dataset (Rot-Multi-opening): https://doi.org/10.5281/zenodo.15080626
  
- Once you downloaded data fragment, you can test the code.
- Run the following command:
  ```
 python main.py --batch_size 128 --epochs 200 --lr 0.001  --res_dir .\Result --data_root .\rotating_no_tur_filter_test --gamma 0.87
  ```
